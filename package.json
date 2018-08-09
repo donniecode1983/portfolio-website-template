@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-website-template",
+  "version": "1.0.0",
+  "description": "This is a basic Portfolio Website Template using HTML5, CSS3, and SASS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donniecode1983/portfolio-website-template.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "sass",
+    "portfolio",
+    "website",
+    "template"
+  ],
+  "author": "Donovan J Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donniecode1983/portfolio-website-template/issues"
+  },
+  "homepage": "https://github.com/donniecode1983/portfolio-website-template#readme"
+}
