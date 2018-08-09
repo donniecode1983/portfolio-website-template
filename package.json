@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/donniecode1983/portfolio-website-template/issues"
   },
-  "homepage": "https://github.com/donniecode1983/portfolio-website-template#readme"
+  "homepage": "https://github.com/donniecode1983/portfolio-website-template#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
 }
