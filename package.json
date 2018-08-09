@@ -4,7 +4,7 @@
   "description": "This is a basic Portfolio Website Template using HTML5, CSS3, and SASS.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
