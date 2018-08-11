@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/donniecode1983/portfolio-website-template#readme",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.9.3"
   }
 }
