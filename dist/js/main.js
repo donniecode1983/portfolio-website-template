@@ -30,3 +30,33 @@ function toggleMenu() {
 
     }
 }
+
+// Load the Javascripts on Window load
+window.onload = () => {
+    setActiveLinkColor();
+}
+
+
+// Set Active Link Color in CSS 
+function setActiveLinkColor() {
+    // Load the page document name into the page variable.
+    var page = '/' + location.href.split("/").slice(-1);
+
+    var mainMenuNav = document.getElementById('main-menu-nav');
+    // Get the number of links listed in the top menu.
+    var linkNumber = mainMenuNav.getElementsByTagName('li').length;
+
+    // Loop through the Links to find the active one
+    for (i = 0; i < linkNumber; i++) {
+        var currentLink = mainMenuNav.getElementsByTagName('li')[i].getElementsByTagName('a');
+        var currentPage = currentLink[0].getAttribute('href');
+        console.log("Page: " + page + " Current Page: " + currentPage);
+
+        // if currentPage equals page then add the active-link class.
+        if (page == currentPage) {
+            currentLink[0].className += 'active-link';
+        }
+
+    }
+
+}
