@@ -35,7 +35,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
     visibility: hidden;
     &.show {
         visibility: visible;
@@ -54,7 +53,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 5);
+        background: rgba(darken($primary-color, 5), 0.9);
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include easeOut();
@@ -64,18 +63,16 @@
         }
     } // Branding Side
     &-branding {
-        background: $primary-color;
+        background: rgba(lighten($primary-color, 0), 0.9);
         transform: translate3d(0, 100%, 0);
         @include easeOut();
         &.show {
             // Slide in from bottom
             transform: translate3d(0, 0, 0);
         }
-        .portrait {
-            background: $portrait-image;
+        .portrait img {
             width: 250px;
             height: 250px;
-            background-size: cover;
             border-radius: 50%;
             border: solid 3px $secondary-color;
             z-index: 4;
@@ -99,6 +96,10 @@
         color: $light-color;
         text-decoration: none;
         @include easeOut();
+        &:hover {
+            color: $secondary-color;
+            @include easeOut();
+        }
     }
 }
 
@@ -109,6 +110,7 @@
     }
 }
 
+// Set the style for the active link in the Main Menu
 .active-link {
     color: $secondary-color !important;
     &:hover {
