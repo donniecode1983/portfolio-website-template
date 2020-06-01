@@ -27,7 +27,13 @@ h4 {
     &.sm-heading {
         margin-bottom: 2rem;
         padding: .2rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5)
+        
+        span {
+            background: rgba(lighten($secondary-color, 2), 0.5);
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+        }
     }
 }
 
