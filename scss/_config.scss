@@ -5,9 +5,9 @@ $primary-color: #111;
 $secondary-color: #F1C1B0;
 $light-color: #fff;
 $show-home-image: true;
-$home-image: url(../imgs/background.jpg);
+$home-image: url(../imgs/background2.jpg);
 $portrait-image: url(../imgs/portrait.jpg);
-$background-opatcity: 0.7;
+$background-opatcity: 0.8;
 // Mixins
 @mixin easeOut {
     transition: all 0.5s ease-out;
