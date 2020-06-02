@@ -2,13 +2,13 @@
 
 ## Background Image:
 
-- Creator:
-- WebSite Location:
-- LICSENCE:
+- Creator: Tracy Adams
+- WebSite Location: https://unsplash.com/@tracycodes
+- LICSENCE: https://unsplash.com/license
 
 ## Portrait Image:
 
-- Creator:
-- Model:
-- WebSite Location:
-- LICSENCE:
+- Creator: Jurica Koletić
+- Model: Unknown
+- WebSite Location: https://unsplash.com/@juricakoletic
+- LICSENCE: https://unsplash.com/license
