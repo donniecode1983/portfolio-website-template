@@ -103,7 +103,7 @@ body {
   margin: 0;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../imgs/background.jpg);
+    background: url(../imgs/background2.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -114,7 +114,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(17, 17, 17, 0.7); }
+      background: rgba(17, 17, 17, 0.8); }
 
 h1,
 h2,
@@ -132,8 +132,14 @@ h4 {
   h3.sm-heading,
   h4.sm-heading {
     margin-bottom: 2rem;
-    padding: .2rem 1rem;
-    background: rgba(22, 22, 22, 0.5); }
+    padding: .2rem 1rem; }
+    h1.sm-heading span,
+    h2.sm-heading span,
+    h3.sm-heading span,
+    h4.sm-heading span {
+      background: rgba(243, 200, 185, 0.5);
+      padding-left: 1rem;
+      padding-right: 1rem; }
 
 a {
   color: #fff;
